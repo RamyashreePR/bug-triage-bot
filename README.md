@@ -52,3 +52,18 @@ streamlit run app.py
 ```
 
 ## Project structure
+
+```
+bug-triage-bot/
+├── triage.py          # Core engine: Claude call + Pydantic schema
+├── app.py             # Streamlit web UI
+├── requirements.txt   # Python dependencies
+├── .env               # API key (not committed)
+└── README.md
+```
+
+## Author
+
+Ramya Shree Renukaiah - QA Engineer with experience in manual testing, REST API validation, and AI quality assurance.
+
+[LinkedIn](https://linkedin.com/in/ramyashree-r-022242213)
