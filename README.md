@@ -13,7 +13,7 @@ reaches the engineering team.
 
 ## Demo
 
-**Try the live app:** [ramya-bug-triage-bot.streamlit.app](https://ramya-bug-triage-bot.streamlit.app)
+**Try the live app:** [bug-triage-bot-ai.streamlit.app](https://bug-triage-bot-ai.streamlit.app)
 
 The tool reliably distinguishes vague reports from well-structured ones:
 
