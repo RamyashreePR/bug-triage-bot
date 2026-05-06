@@ -13,7 +13,7 @@ reaches the engineering team.
 
 ## Demo
 
-Try the live app: [bug-triage-bot.streamlit.app](#) *(link will be added after deployment)*
+**Try the live app:** [ramya-bug-triage-bot.streamlit.app](https://ramya-bug-triage-bot.streamlit.app)
 
 The tool reliably distinguishes vague reports from well-structured ones:
 
@@ -41,7 +41,7 @@ The tool reliably distinguishes vague reports from well-structured ones:
 ## Run locally
 
 ```bash
-git clone https://github.com/YOURUSERNAME/bug-triage-bot.git
+git clone https://github.com/RamyashreePR/bug-triage-bot.git
 cd bug-triage-bot
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1   # Windows
