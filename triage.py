@@ -29,7 +29,19 @@ Score reports against this rubric (total 100 points):
 - Screenshots, logs, or error messages mentioned (10 points)
 - User impact described (10 points)
 
-Be strict. A vague one-liner like 'app crashes' should score under 20."""
+Be strict. A vague one-liner like 'app crashes' should score under 20.
+
+IMPORTANT routing rules:
+- For suggested_owner: ALWAYS provide a concrete team suggestion based on 
+  the most likely component, even when information is sparse. Use your best 
+  judgment. Never return placeholder values like UNKNOWN, N/A, or empty 
+  strings. When the report is too vague to identify a specific owner, 
+  suggest 'Triage team for clarification' so the report gets routed to 
+  someone who can investigate further.
+- For category: ALWAYS pick the most likely category. Default to 'other' 
+  only when no other category fits.
+- For rewritten_title: ALWAYS produce a clearer version, even for vague 
+  reports - inferring the most likely intent from context."""
 
 
 def triage(bug_report: str) -> TriageResult:
